@@ -5,7 +5,7 @@ Install all required files which are in requirements.txt by using this command:
 
 pip install -r requirements.txt
 
-Download your .json file and add it in the main folder
+Download your .json file and add it to the main folder
 
 Copy the name of your .json file
 
