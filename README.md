@@ -1,6 +1,9 @@
 # GoogleIndexer
-Index URLs to Google Search Engine with Google API Indexer in Bulk.
-Notes
+Index URLs to Google Search Engine with Google API Indexer.
+
+Submit URLs in bulk to Google's Indexing API using a batch request
+
+Notes:
 Install all required files which are in requirements.txt by using this command:
 
 pip install -r requirements.txt
