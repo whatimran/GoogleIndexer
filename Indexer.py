@@ -5,11 +5,11 @@ import json
 import pandas as pd
 import pyfiglet
 
-ascii_banner = pyfiglet.figlet_format("Bulk Api Indexer")
+ascii_banner = pyfiglet.figlet_format("Google Api Indexer")
 print(ascii_banner)
 
 # https://developers.google.com/search/apis/indexing-api/v3/prereqs#header_2
-JSON_KEY_FILE = "omega-mile-304018-ce6748c08f86.json"
+JSON_KEY_FILE = "YOUR FILE HERE.json"
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scopes=SCOPES)
